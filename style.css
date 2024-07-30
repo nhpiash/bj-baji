@@ -1,0 +1,286 @@
+body{
+    background: #111111 !important;
+}
+
+
+/* Sticky Header Bar */
+nav.navbar.navbar-expand-lg.bg-dark{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+   max-height: 75px;
+}
+.owalslider{
+   padding-top: 75px;
+}
+
+/* Sticky Header Bar */
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .offcanvas {
+        display: none;
+    }
+
+}
+
+
+.offcanvas{
+
+    max-width:70% !important;
+    display: flex;
+    flex-direction: row;
+}
+.offcanvas-body{
+     max-width:100% !important;
+     height: 100%;
+}
+
+li.list-group-item.cetagorys {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #6c757d;
+    padding: 20px !important;
+}
+
+
+
+.navbar .hbut{
+   display: flex;
+    justify-content: end;
+    position: relative;
+
+}
+.navbar button{
+   width: 0px;
+    margin: 0px 10px 0px 5px;
+    
+}
+
+
+.hbut a{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none;
+    color: #14805e;
+    margin-right: 5px;
+}
+
+.carousel-item img{
+    max-width:40px !important;
+    min-width:40px !important;
+}
+.carousel-item .active img{
+    max-width:40px !important;
+    min-width:40px !important;
+}
+
+
+.navbar .btn:active{
+    background: none;
+    border: transparent;
+    width:0;
+}
+.navbar .btn:hover{
+    background: none;
+    border: transparent;
+    width:0;
+}
+
+.offcanvas-body {
+    padding: 0;
+    background: #111111 !important;
+}
+
+.offcanvas .offcanvas-start{
+    background: #252525 !important;
+}
+.list-group-item img{
+    width: 30px;
+}
+.list-group-item{
+   background: #252525;
+   color: white;
+   border-radius: 0px !important;
+   border-bottom: 1px solid #ddd;
+}
+
+
+/* owl carasol image */
+.owl-carousels .owl-item img {
+    border-radius: 10px;
+/*     height: 120px; */
+}
+.owl-item .active .center{
+    width: 300px !important;
+    
+}
+
+row.col img {
+    vertical-align: middle;
+}
+row.col marquee {
+    vertical-align: middle;
+}
+
+.owl-dot{
+    width:10px !important;
+    height:5px !important;
+    margin-right: 20px !important;
+}
+
+.owl-dot span{
+    width:20px !important;
+    height:4px !important;
+/*     margin-right: 80px !important; */
+    
+}
+.marquee .col{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+marquee{
+    font-size: 16px;
+    font-weight: 600;
+}
+.marqueeicon{
+    padding-right: 15px;
+}
+
+
+
+.row .hanbtn button{
+    padding: 10px 0px 10px 0px !important;
+}
+ #submenusection {
+    display: none; /* Initially hide the submenusection */
+    position: relative; /* Make sure it can be positioned */
+    opacity: 0; /* Initial state for opacity */
+    left: -100px; /* Initial state for left position */
+    z-index: -1; /* Ensure it's above other elements if needed */
+}
+
+
+div.menucetagory{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    color: white;
+}
+div.menucetagory:hover{
+   background: #2b2b2b;
+   color: white;
+}
+
+.catemenu.owl-item.active:after {
+    content: "";
+    display: none;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    border-width: 2.1333333333vw;
+    border-style: solid;
+    border-color: transparent transparent #111111;
+
+}
+
+
+.csm .col-3{
+    padding: 2px !important;
+}
+.csm{
+    margin: 5px;
+}
+.cetagorysub{
+    background:#333 !important;
+    border-radius:5px;
+    color: white  !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cetagorysub .log{
+   max-width: 50px;
+}
+
+.scrollable-carousel .item {
+    text-align: center;
+}
+.scrollable-carousel .item .active {
+   width: 150px  !important;
+}
+
+.scrollable-carousel .item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.Featured .item .active {
+   width: 100px  !important;
+}
+
+.scm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 1px;
+    background: #333 !important;
+}
+.subcate .item .col-3{
+    padding: 0;
+
+}
+.subcate .item{
+    padding: 15px;
+
+}
+.subcate .item img{
+   max-width: 50px !important;
+
+}
+
+
+
+
+
+
+
+
+.catemenu {
+    width: 100%;
+    z-index: 999; /* Ensure it appears above other content */
+}
+
+.catemenu.fixed {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Optional shadow for sticky effect */
+    background: rgb(33 37 41) !important;
+}
+.catemenu.fixed .item img{
+    display: none !important;
+}
+
+
+
